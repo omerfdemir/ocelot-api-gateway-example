@@ -21,7 +21,17 @@
       "Host": "localhost",
       "Port": 5002
     }]
-  }
+  },
+    {
+      "UpstreamPathTemplate": "/identity-server/{url}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "GET" ],
+      "DownstreamPathTemplate": "/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5004
+      }]
+    }
   ],
   "AuthenticationOptions": {
   "AuthenticationProviderKey": "IdentityApiKey",

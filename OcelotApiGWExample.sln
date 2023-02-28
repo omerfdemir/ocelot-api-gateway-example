@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Web.Api", "Payment.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGW", "OcelotApiGW\OcelotApiGW.csproj", "{F08DA17D-FDC3-41A6-ADE7-E168DCF79A3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerPolicyBasedAuth", "IdentityServerPolicyBasedAuth\IdentityServerPolicyBasedAuth.csproj", "{9FA2517C-616D-4AD4-AF10-3CB6B6A17CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBModel", "DBModel\DBModel.csproj", "{C88A9E9A-744E-4064-B13B-63526BD08710}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{F08DA17D-FDC3-41A6-ADE7-E168DCF79A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08DA17D-FDC3-41A6-ADE7-E168DCF79A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08DA17D-FDC3-41A6-ADE7-E168DCF79A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA2517C-616D-4AD4-AF10-3CB6B6A17CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA2517C-616D-4AD4-AF10-3CB6B6A17CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA2517C-616D-4AD4-AF10-3CB6B6A17CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA2517C-616D-4AD4-AF10-3CB6B6A17CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88A9E9A-744E-4064-B13B-63526BD08710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88A9E9A-744E-4064-B13B-63526BD08710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88A9E9A-744E-4064-B13B-63526BD08710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88A9E9A-744E-4064-B13B-63526BD08710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
